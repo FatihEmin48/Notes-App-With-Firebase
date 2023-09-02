@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color my_primary
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable login
+drawable rounded_corner
+drawable sign_up
+id confirm_password_edit_text
+id create_account_btn
+id email_edit_text
+id form_layout
+id hello_text
+id login_text_view_btn
+id password_edit_text
+id progress_bar
+id sign_up_icon
+layout activity_create_account
+layout activity_main
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.NotesApp
+style Theme.NotesApp
+xml backup_rules
+xml data_extraction_rules
