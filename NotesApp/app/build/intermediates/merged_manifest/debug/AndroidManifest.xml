@@ -28,7 +28,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.NotesApp" >
         <activity
+            android:name="com.fatiheminkarahan.notesapp.CreateAccountActivity"
+            android:exported="false" />
+        <activity
             android:name="com.fatiheminkarahan.notesapp.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.fatiheminkarahan.notesapp.SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
