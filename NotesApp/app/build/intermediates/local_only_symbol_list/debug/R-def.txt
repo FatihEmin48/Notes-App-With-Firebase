@@ -24,6 +24,9 @@ id login_btn
 id login_icon
 id login_text_view_btn
 id menu_btn
+id note_content_text_view
+id note_timestamp_text_view
+id note_title_text_view
 id notes_content_text
 id notes_title_text
 id page_title
@@ -38,6 +41,7 @@ layout activity_login
 layout activity_main
 layout activity_note_details
 layout activity_splash
+layout recycler_note_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

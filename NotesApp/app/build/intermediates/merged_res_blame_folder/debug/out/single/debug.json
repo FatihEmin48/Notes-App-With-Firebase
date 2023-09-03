@@ -1,118 +1,118 @@
 [
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\xml\\backup_rules.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/layout_activity_splash.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\layout\\activity_splash.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable_baseline_menu_24.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable/baseline_menu_24.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\xml\\data_extraction_rules.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/layout_activity_create_account.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/layout/activity_create_account.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable-v24_sign_up.png.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\drawable-v24\\sign_up.png"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable_baseline_add_24.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\drawable\\baseline_add_24.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable-v24_login.png.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable-v24/login.png"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\layout\\activity_login.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/xml_backup_rules.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\layout_activity_note_details.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\layout\\activity_note_details.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\layout_activity_create_account.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\layout\\activity_create_account.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable_baseline_done_outline_24.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable/baseline_done_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-pngs-29:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable_rounded_corner.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable/rounded_corner.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable-v24_login.png.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\drawable-v24\\login.png"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable_baseline_done_24.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable/baseline_done_24.xml"
     },
     {
-        "merged": "com.fatiheminkarahan.notesapp-merged_res-33:/drawable_baseline_menu_24.xml.flat",
-        "source": "com.fatiheminkarahan.notesapp-main-35:/drawable/baseline_menu_24.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable-v24_sign_up.png.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable-v24/sign_up.png"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable_baseline_done_outline_24.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\drawable\\baseline_done_outline_24.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/drawable_baseline_add_24.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/drawable/baseline_add_24.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable_rounded_corner.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\drawable\\rounded_corner.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.fatiheminkarahan.notesapp-merged_res-33:/layout_activity_main.xml.flat",
-        "source": "com.fatiheminkarahan.notesapp-main-35:/layout/activity_main.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\layout\\activity_main.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/layout_activity_login.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/layout_activity_note_details.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/layout/activity_note_details.xml"
     },
     {
-        "merged": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-merged_res-33:\\drawable_baseline_done_24.xml.flat",
-        "source": "C:\\Users\\fatih\\.gradle\\daemon\\8.0\\com.fatiheminkarahan.notesapp-main-35:\\drawable\\baseline_done_24.xml"
+        "merged": "com.fatiheminkarahan.notesapp-merged_res-35:/layout_recycler_note_item.xml.flat",
+        "source": "com.fatiheminkarahan.notesapp-main-37:/layout/recycler_note_item.xml"
     }
 ]
