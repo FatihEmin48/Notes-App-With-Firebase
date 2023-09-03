@@ -8,91 +8,232 @@
 8        android:minSdkVersion="23"
 9        android:targetSdkVersion="33" />
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.fatiheminkarahan.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.fatiheminkarahan.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->D:\NotesApp\app\src\main\AndroidManifest.xml:5:5-30:19
-18        android:allowBackup="true"
-18-->D:\NotesApp\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->D:\NotesApp\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->D:\NotesApp\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->D:\NotesApp\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->D:\NotesApp\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->D:\NotesApp\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->D:\NotesApp\app\src\main\AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.NotesApp" >
-29-->D:\NotesApp\app\src\main\AndroidManifest.xml:13:9-46
-30        <activity
-30-->D:\NotesApp\app\src\main\AndroidManifest.xml:15:9-17:40
-31            android:name="com.fatiheminkarahan.notesapp.CreateAccountActivity"
-31-->D:\NotesApp\app\src\main\AndroidManifest.xml:16:13-50
-32            android:exported="false" />
-32-->D:\NotesApp\app\src\main\AndroidManifest.xml:17:13-37
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:26:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\1574a0b91c7ec09f34c8755b8698de26\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.fatiheminkarahan.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\1574a0b91c7ec09f34c8755b8698de26\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\1574a0b91c7ec09f34c8755b8698de26\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.fatiheminkarahan.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\1574a0b91c7ec09f34c8755b8698de26\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\1574a0b91c7ec09f34c8755b8698de26\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->D:\NotesApp\app\src\main\AndroidManifest.xml:5:5-33:19
+21        android:allowBackup="true"
+21-->D:\NotesApp\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\fatih\.gradle\caches\transforms-3\1574a0b91c7ec09f34c8755b8698de26\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\NotesApp\app\src\main\AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\NotesApp\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\NotesApp\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->D:\NotesApp\app\src\main\AndroidManifest.xml:10:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\NotesApp\app\src\main\AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->D:\NotesApp\app\src\main\AndroidManifest.xml:12:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.NotesApp" >
+32-->D:\NotesApp\app\src\main\AndroidManifest.xml:13:9-46
 33        <activity
-33-->D:\NotesApp\app\src\main\AndroidManifest.xml:18:9-20:40
-34            android:name="com.fatiheminkarahan.notesapp.MainActivity"
-34-->D:\NotesApp\app\src\main\AndroidManifest.xml:19:13-41
+33-->D:\NotesApp\app\src\main\AndroidManifest.xml:15:9-17:40
+34            android:name="com.fatiheminkarahan.notesapp.LoginActivity"
+34-->D:\NotesApp\app\src\main\AndroidManifest.xml:16:13-42
 35            android:exported="false" />
-35-->D:\NotesApp\app\src\main\AndroidManifest.xml:20:13-37
+35-->D:\NotesApp\app\src\main\AndroidManifest.xml:17:13-37
 36        <activity
-36-->D:\NotesApp\app\src\main\AndroidManifest.xml:21:9-29:20
-37            android:name="com.fatiheminkarahan.notesapp.SplashActivity"
-37-->D:\NotesApp\app\src\main\AndroidManifest.xml:22:13-43
-38            android:exported="true" >
-38-->D:\NotesApp\app\src\main\AndroidManifest.xml:23:13-36
-39            <intent-filter>
-39-->D:\NotesApp\app\src\main\AndroidManifest.xml:24:13-28:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->D:\NotesApp\app\src\main\AndroidManifest.xml:25:17-69
-40-->D:\NotesApp\app\src\main\AndroidManifest.xml:25:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->D:\NotesApp\app\src\main\AndroidManifest.xml:27:17-77
-42-->D:\NotesApp\app\src\main\AndroidManifest.xml:27:27-74
-43            </intent-filter>
-44        </activity>
-45
-46        <provider
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-47            android:name="androidx.startup.InitializationProvider"
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-48            android:authorities="com.fatiheminkarahan.notesapp.androidx-startup"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-49            android:exported="false" >
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-50            <meta-data
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-52                android:value="androidx.startup" />
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-53            <meta-data
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fatih\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fatih\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-55                android:value="androidx.startup" />
-55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fatih\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-56        </provider>
-57    </application>
-58
-59</manifest>
+36-->D:\NotesApp\app\src\main\AndroidManifest.xml:18:9-20:40
+37            android:name="com.fatiheminkarahan.notesapp.CreateAccountActivity"
+37-->D:\NotesApp\app\src\main\AndroidManifest.xml:19:13-50
+38            android:exported="false" />
+38-->D:\NotesApp\app\src\main\AndroidManifest.xml:20:13-37
+39        <activity
+39-->D:\NotesApp\app\src\main\AndroidManifest.xml:21:9-23:40
+40            android:name="com.fatiheminkarahan.notesapp.MainActivity"
+40-->D:\NotesApp\app\src\main\AndroidManifest.xml:22:13-41
+41            android:exported="false" />
+41-->D:\NotesApp\app\src\main\AndroidManifest.xml:23:13-37
+42        <activity
+42-->D:\NotesApp\app\src\main\AndroidManifest.xml:24:9-32:20
+43            android:name="com.fatiheminkarahan.notesapp.SplashActivity"
+43-->D:\NotesApp\app\src\main\AndroidManifest.xml:25:13-43
+44            android:exported="true" >
+44-->D:\NotesApp\app\src\main\AndroidManifest.xml:26:13-36
+45            <intent-filter>
+45-->D:\NotesApp\app\src\main\AndroidManifest.xml:27:13-31:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->D:\NotesApp\app\src\main\AndroidManifest.xml:28:17-69
+46-->D:\NotesApp\app\src\main\AndroidManifest.xml:28:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->D:\NotesApp\app\src\main\AndroidManifest.xml:30:17-77
+48-->D:\NotesApp\app\src\main\AndroidManifest.xml:30:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1d3f373e2ff1d2ff540df3bd293e03a1\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:8:9-14:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1d3f373e2ff1d2ff540df3bd293e03a1\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:9:13-84
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fatih\.gradle\caches\transforms-3\c7201621c65d3288d5089078542a5f2e\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1d3f373e2ff1d2ff540df3bd293e03a1\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:10:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1d3f373e2ff1d2ff540df3bd293e03a1\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:11:13-13:85
+57                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+57-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1d3f373e2ff1d2ff540df3bd293e03a1\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:12:17-116
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-auth-ktx:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1d3f373e2ff1d2ff540df3bd293e03a1\transformed\firebase-auth-ktx-22.1.1\AndroidManifest.xml:13:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:69:13-71:85
+60                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+60-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:70:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:71:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\fatih\.gradle\caches\transforms-3\2837400d007a50d84cb52fcb938134cf\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+63                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+63-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\fatih\.gradle\caches\transforms-3\2837400d007a50d84cb52fcb938134cf\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\fatih\.gradle\caches\transforms-3\2837400d007a50d84cb52fcb938134cf\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+65        </service>
+66
+67        <activity
+67-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:29:9-46:20
+68            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+68-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:30:13-80
+69            android:excludeFromRecents="true"
+69-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:31:13-46
+70            android:exported="true"
+70-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:32:13-36
+71            android:launchMode="singleTask"
+71-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:33:13-44
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+72-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:34:13-72
+73            <intent-filter>
+73-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:35:13-45:29
+74                <action android:name="android.intent.action.VIEW" />
+74-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:17-69
+74-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:17-76
+76-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:17-78
+77-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:27-75
+78
+79                <data
+79-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:41:17-44:51
+80                    android:host="firebase.auth"
+80-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:42:21-49
+81                    android:path="/"
+81-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:43:21-37
+82                    android:scheme="genericidp" />
+82-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:44:21-48
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:47:9-64:20
+86            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+86-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:48:13-79
+87            android:excludeFromRecents="true"
+87-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:49:13-46
+88            android:exported="true"
+88-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:50:13-36
+89            android:launchMode="singleTask"
+89-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:51:13-44
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+90-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:52:13-72
+91            <intent-filter>
+91-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:53:13-63:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:17-69
+92-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:36:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:17-76
+94-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:38:27-73
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:17-78
+95-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:39:27-75
+96
+97                <data
+97-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:41:17-44:51
+98                    android:host="firebase.auth"
+98-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:42:21-49
+99                    android:path="/"
+99-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:43:21-37
+100                    android:scheme="recaptcha" />
+100-->[com.google.firebase:firebase-auth:22.1.1] C:\Users\fatih\.gradle\caches\transforms-3\1f53267b80c2cde4502e09f449b7da81\transformed\firebase-auth-22.1.1\AndroidManifest.xml:44:21-48
+101            </intent-filter>
+102        </activity>
+103
+104        <provider
+104-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fatih\.gradle\caches\transforms-3\c7201621c65d3288d5089078542a5f2e\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+105            android:name="com.google.firebase.provider.FirebaseInitProvider"
+105-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fatih\.gradle\caches\transforms-3\c7201621c65d3288d5089078542a5f2e\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+106            android:authorities="com.fatiheminkarahan.notesapp.firebaseinitprovider"
+106-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fatih\.gradle\caches\transforms-3\c7201621c65d3288d5089078542a5f2e\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fatih\.gradle\caches\transforms-3\c7201621c65d3288d5089078542a5f2e\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fatih\.gradle\caches\transforms-3\c7201621c65d3288d5089078542a5f2e\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fatih\.gradle\caches\transforms-3\c7201621c65d3288d5089078542a5f2e\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fatih\.gradle\caches\transforms-3\55c407b430309d2ed38609e3dfb455df\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fatih\.gradle\caches\transforms-3\55c407b430309d2ed38609e3dfb455df\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fatih\.gradle\caches\transforms-3\55c407b430309d2ed38609e3dfb455df\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\fatih\.gradle\caches\transforms-3\55c407b430309d2ed38609e3dfb455df\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fatih\.gradle\caches\transforms-3\8f26984e13c148f238449caf663e3c64\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fatih\.gradle\caches\transforms-3\8f26984e13c148f238449caf663e3c64\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fatih\.gradle\caches\transforms-3\8f26984e13c148f238449caf663e3c64\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+119
+120        <provider
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\ece1bce777caf2e2f347d277cc64dcf2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\ece1bce777caf2e2f347d277cc64dcf2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+122            android:authorities="com.fatiheminkarahan.notesapp.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\ece1bce777caf2e2f347d277cc64dcf2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\ece1bce777caf2e2f347d277cc64dcf2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\ece1bce777caf2e2f347d277cc64dcf2\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\ece1bce777caf2e2f347d277cc64dcf2\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fatih\.gradle\caches\transforms-3\ece1bce777caf2e2f347d277cc64dcf2\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+127            <meta-data
+127-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fatih\.gradle\caches\transforms-3\b7910acb1405a1963cc95c648609ca1a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fatih\.gradle\caches\transforms-3\b7910acb1405a1963cc95c648609ca1a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+129                android:value="androidx.startup" />
+129-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fatih\.gradle\caches\transforms-3\b7910acb1405a1963cc95c648609ca1a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+130        </provider>
+131    </application>
+132
+133</manifest>
