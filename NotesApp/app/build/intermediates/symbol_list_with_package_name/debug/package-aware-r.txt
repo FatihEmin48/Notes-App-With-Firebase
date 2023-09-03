@@ -3192,6 +3192,7 @@ id cos
 id counterclockwise
 id cradle
 id create_account_btn
+id create_account_text_view_btn
 id currentState
 id custom
 id customPanel
@@ -3303,6 +3304,8 @@ id line3
 id linear
 id listMode
 id list_item
+id login_btn
+id login_icon
 id login_text_view_btn
 id m3_side_sheet
 id marquee
@@ -3678,6 +3681,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_create_account
+layout activity_login
 layout activity_main
 layout activity_splash
 layout browser_actions_context_menu_page

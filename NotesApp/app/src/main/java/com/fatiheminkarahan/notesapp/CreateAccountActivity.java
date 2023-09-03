@@ -3,6 +3,7 @@ package com.fatiheminkarahan.notesapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -39,7 +40,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         loginBtnTextView = findViewById(R.id.login_text_view_btn);
 
         createAccountBtn.setOnClickListener(v-> createAccount());
-        loginBtnTextView.setOnClickListener(v-> finish());
+        loginBtnTextView.setOnClickListener(v-> startActivity(new Intent(CreateAccountActivity.this, LoginActivity.class)));
 
     }
 
@@ -73,7 +74,6 @@ public class CreateAccountActivity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             //creating acc is done
                             Toast.makeText(CreateAccountActivity.this, "Successfully create account,Check email to verify", Toast.LENGTH_LONG).show();
-                            //Utility.showToast(CreateAccountActivity.this,"Successfully create account,Check email to verify");
                             firebaseAuth.getCurrentUser().sendEmailVerification();
                             firebaseAuth.signOut();
                             finish();
