@@ -2924,6 +2924,10 @@ int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
+int drawable baseline_add_24 0x7f0700f7
+int drawable baseline_done_24 0x7f0700f8
+int drawable baseline_done_outline_24 0x7f0700f9
+int drawable baseline_menu_24 0x7f0700fa
 int drawable btn_checkbox_checked_mtrl 0x7f07007a
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007b
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007c
@@ -3120,6 +3124,7 @@ int id action_text 0x7f080043
 int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
 int id add 0x7f080046
+int id add_note_btn 0x7f080204
 int id adjust_height 0x7f080047
 int id adjust_width 0x7f080048
 int id alertTitle 0x7f080049
@@ -3202,6 +3207,7 @@ int id decelerate 0x7f080094
 int id decelerateAndComplete 0x7f080095
 int id decor_content_parent 0x7f080096
 int id default_activity_button 0x7f080097
+int id delete_note_text_view_btn 0x7f080205
 int id deltaRelative 0x7f080098
 int id dependency_ordering 0x7f080099
 int id design_bottom_sheet 0x7f08009a
@@ -3332,6 +3338,7 @@ int id material_timepicker_ok_button 0x7f080114
 int id material_timepicker_view 0x7f080115
 int id material_value_index 0x7f080116
 int id matrix 0x7f080117
+int id menu_btn 0x7f08020c
 int id message 0x7f080118
 int id middle 0x7f080119
 int id mini 0x7f08011a
@@ -3381,6 +3388,8 @@ int id noState 0x7f080145
 int id none 0x7f080146
 int id normal 0x7f080147
 int id north 0x7f080148
+int id notes_content_text 0x7f080206
+int id notes_title_text 0x7f080207
 int id notification_background 0x7f080149
 int id notification_main_column 0x7f08014a
 int id notification_main_column_container 0x7f08014b
@@ -3391,6 +3400,7 @@ int id outline 0x7f08014f
 int id outward 0x7f080150
 int id overshoot 0x7f080151
 int id packed 0x7f080152
+int id page_title 0x7f080208
 int id parallax 0x7f080153
 int id parent 0x7f080154
 int id parentPanel 0x7f080155
@@ -3412,6 +3422,7 @@ int id progress_horizontal 0x7f080164
 int id radio 0x7f080165
 int id ratio 0x7f080166
 int id rectangles 0x7f080167
+int id recyler_view 0x7f080209
 int id reverseSawtooth 0x7f080168
 int id right 0x7f080169
 int id rightToLeft 0x7f08016a
@@ -3420,6 +3431,7 @@ int id right_side 0x7f08016c
 int id rounded 0x7f08016d
 int id row_index_key 0x7f08016e
 int id save_non_transition_alpha 0x7f08016f
+int id save_note_btn 0x7f08020a
 int id save_overlay_view 0x7f080170
 int id sawtooth 0x7f080171
 int id scale 0x7f080172
@@ -3528,6 +3540,7 @@ int id textinput_suffix_text 0x7f0801d8
 int id time 0x7f0801d9
 int id title 0x7f0801da
 int id titleDividerNoCustom 0x7f0801db
+int id title_bar_layout 0x7f08020b
 int id title_template 0x7f0801dc
 int id toggle 0x7f0801dd
 int id top 0x7f0801de
@@ -3682,6 +3695,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_create_account 0x7f0b001c
 int layout activity_login 0x7f0b006e
 int layout activity_main 0x7f0b001d
+int layout activity_note_details 0x7f0b006f
 int layout activity_splash 0x7f0b001e
 int layout browser_actions_context_menu_page 0x7f0b001f
 int layout browser_actions_context_menu_row 0x7f0b0020

@@ -2925,6 +2925,10 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_add_24
+drawable baseline_done_24
+drawable baseline_done_outline_24
+drawable baseline_menu_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3121,6 +3125,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_note_btn
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3203,6 +3208,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_note_text_view_btn
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3333,6 +3339,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menu_btn
 id message
 id middle
 id mini
@@ -3382,6 +3389,8 @@ id noState
 id none
 id normal
 id north
+id notes_content_text
+id notes_title_text
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -3392,6 +3401,7 @@ id outline
 id outward
 id overshoot
 id packed
+id page_title
 id parallax
 id parent
 id parentPanel
@@ -3413,6 +3423,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyler_view
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3421,6 +3432,7 @@ id right_side
 id rounded
 id row_index_key
 id save_non_transition_alpha
+id save_note_btn
 id save_overlay_view
 id sawtooth
 id scale
@@ -3529,6 +3541,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_bar_layout
 id title_template
 id toggle
 id top
@@ -3683,6 +3696,7 @@ layout abc_tooltip
 layout activity_create_account
 layout activity_login
 layout activity_main
+layout activity_note_details
 layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
