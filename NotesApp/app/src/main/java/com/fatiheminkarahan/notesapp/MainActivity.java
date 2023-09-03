@@ -39,21 +39,29 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void showMenu(){
-        PopupMenu popupMenu  = new PopupMenu(MainActivity.this,menuBtn);
+
+        PopupMenu popupMenu  = new PopupMenu(MainActivity.this, menuBtn);
         popupMenu.getMenu().add("Logout");
         popupMenu.show();
         popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
                 if(menuItem.getTitle()=="Logout"){
+
                     FirebaseAuth.getInstance().signOut();
-                    startActivity(new Intent(MainActivity.this,LoginActivity.class));
+
+                    startActivity(new Intent(MainActivity.this, LoginActivity.class));
                     finish();
+
                     return true;
+
                 }
+
                 return false;
+
             }
         });
+
     }
 
     void setupRecyclerView(){

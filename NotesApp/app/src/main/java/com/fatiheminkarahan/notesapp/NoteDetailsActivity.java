@@ -19,7 +19,7 @@ public class NoteDetailsActivity extends AppCompatActivity {
     EditText titleEditText,contentEditText;
     ImageButton saveNoteBtn;
     TextView pageTitleTextView;
-    String title,content,docId;
+    String title, content, docId;
     boolean isEditMode = false;
     TextView deleteNoteTextViewBtn;
 
@@ -37,7 +37,7 @@ public class NoteDetailsActivity extends AppCompatActivity {
 
         //receive data
         title = getIntent().getStringExtra("title");
-        content= getIntent().getStringExtra("content");
+        content = getIntent().getStringExtra("content");
         docId = getIntent().getStringExtra("docId");
 
         if(docId!=null && !docId.isEmpty()){
@@ -46,6 +46,7 @@ public class NoteDetailsActivity extends AppCompatActivity {
 
         titleEditText.setText(title);
         contentEditText.setText(content);
+
         if(isEditMode){
             pageTitleTextView.setText("Edit your note");
             deleteNoteTextViewBtn.setVisibility(View.VISIBLE);
@@ -53,7 +54,7 @@ public class NoteDetailsActivity extends AppCompatActivity {
 
         saveNoteBtn.setOnClickListener( (v)-> saveNote());
 
-        //deleteNoteTextViewBtn.setOnClickListener((v)-> deleteNoteFromFirebase() );
+        deleteNoteTextViewBtn.setOnClickListener((v)-> deleteNoteFromFirebase());
 
     }
 

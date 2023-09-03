@@ -31,13 +31,14 @@ public class NoteAdapter extends FirestoreRecyclerAdapter<Note, NoteAdapter.Note
         holder.timesstampTextView.setText(Utility.timestampToString(note.timestamp));
 
         holder.itemView.setOnClickListener((v)->{
-            Intent intent = new Intent(context,NoteDetailsActivity.class);
-            intent.putExtra("title",note.title);
-            intent.putExtra("content",note.content);
+            Intent intent = new Intent(context, NoteDetailsActivity.class);
+            intent.putExtra("title", note.title);
+            intent.putExtra("content", note.content);
             String docId = this.getSnapshots().getSnapshot(position).getId();
-            intent.putExtra("docId",docId);
+            intent.putExtra("docId", docId);
             context.startActivity(intent);
         });
+
     }
 
     @androidx.annotation.NonNull
