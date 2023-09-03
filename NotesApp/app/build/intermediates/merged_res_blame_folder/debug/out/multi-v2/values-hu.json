@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.fatiheminkarahan.notesapp-mergeDebugResources-31:/values-hu/values-hu.xml",
+            "outputFile": "com.fatiheminkarahan.notesapp-mergeDebugResources-33:/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\fatih\\.gradle\\caches\\transforms-3\\789dcdc8899703e25024cd67fb56f9b6\\transformed\\browser-1.4.0\\res\\values-hu\\values-hu.xml",

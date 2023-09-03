@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.fatiheminkarahan.notesapp-mergeDebugResources-31:/values-bn/values-bn.xml",
+            "outputFile": "com.fatiheminkarahan.notesapp-mergeDebugResources-33:/values-bn/values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\fatih\\.gradle\\caches\\transforms-3\\55c407b430309d2ed38609e3dfb455df\\transformed\\play-services-base-18.0.1\\res\\values-bn\\values.xml",

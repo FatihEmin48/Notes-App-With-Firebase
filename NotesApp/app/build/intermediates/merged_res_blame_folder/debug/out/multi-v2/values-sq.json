@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.fatiheminkarahan.notesapp-mergeDebugResources-31:/values-sq/values-sq.xml",
+            "outputFile": "com.fatiheminkarahan.notesapp-mergeDebugResources-33:/values-sq/values-sq.xml",
             "map": [
                 {
                     "source": "C:\\Users\\fatih\\.gradle\\caches\\transforms-3\\f2b32e0c63205b2c2738cad519ab7dbc\\transformed\\appcompat-1.6.1\\res\\values-sq\\values-sq.xml",
