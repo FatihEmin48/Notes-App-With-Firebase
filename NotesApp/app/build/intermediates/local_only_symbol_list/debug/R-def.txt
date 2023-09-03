@@ -10,6 +10,7 @@ drawable baseline_menu_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable login
+drawable logo
 drawable rounded_corner
 drawable sign_up
 id add_note_btn
@@ -43,6 +44,7 @@ layout activity_note_details
 layout activity_splash
 layout recycler_note_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string default_web_client_id

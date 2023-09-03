@@ -30,6 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="C:\Users\fatih\Documents\Android Key\android_key.jks" />
+    <option name="KEY_ALIAS" value="fatiheminkarahan" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,17 +48,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "BundleExportedModule": "Notes_App.app",
+    "ExportBundle.BundlePathForNotes_App.app": "D:\\NotesApp\\app",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "ScreenRecorder.SavePath": "D:\\",
+    "ScreenshotViewer.SavePath": "C:/Users/fatih/Desktop",
     "cidr.known.project.marker": "true",
     "last_directory_selection": "D:/NotesApp/app/src/main/res/drawable-v24",
     "last_opened_file_path": "D:/"
+  },
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NotesApp\app\src\main\res\drawable" />
       <recent name="D:\NotesApp\app\src\main\res\drawable-v24" />
     </key>
     <key name="android.template.1694214083">
